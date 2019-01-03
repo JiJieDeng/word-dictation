@@ -1,0 +1,27 @@
+.article{
+  text-align:center;
+  line-height: 55rpx;
+  font-size:14px;
+}
+article__title{
+  height:55rpx;
+}
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.red{
+  color:red;
+}
+image{
+  width:calc(100% - 20rpx);
+}
+.content{
+  width:calc(100% - 20rpx);
+  margin-left:10rpx;
+  background:#eee;
+}

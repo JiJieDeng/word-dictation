@@ -1,0 +1,49 @@
+<!--pages/doc/doc_index.wxml-->
+<view class="page">
+  <view class="page__bd">
+
+  <view class="weui-media-box__title weui-media-box__title_in-text" style="margin-bottom:0;">
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" placeholder="请输入所有者"   bindinput="ownerInput" value="{{owner}}"/>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" placeholder="请输入仓库名"   bindinput="repoInput" value="{{repo}}"/>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" placeholder="请输入分支名"   bindinput="shaInput" value="{{sha}}"/>
+            </view>
+          </view>
+        </view>
+      </view>
+
+  <ad unit-id="adunit-1dd9ab440913a4c5"></ad>
+  <view style="height:30px;"></view>
+<view class="weui-flex">
+        <view class="weui-flex__item" style='text-align: center;'>
+          <button class="weui-btn mini-btn btn-right" size="mini" type="default" plain="true" bindtap='restore'>
+            初始参数
+          </button>
+        </view>
+
+        <view class="weui-flex__item" style='text-align: center;'>
+          <button bindtap="toDesc" class="weui-btn mini-btn btn-right" size="mini" type="primary" plain="true">
+            使用教程
+          </button>
+        </view>
+
+        <view class="weui-flex__item" style='text-align: center;'>
+          <button class="weui-btn mini-btn btn-right" type="default" size="mini" plain="true" bindtap='toDoc'>
+            进入仓库
+          </button>
+        </view>
+      </view> 
+
+      <view style="height:30px;"></view>
+  </view>
+</view>

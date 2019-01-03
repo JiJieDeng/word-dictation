@@ -1,0 +1,164 @@
+<!--logs.wxml-->
+<view class="article">
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title">version:2.1.1</view>
+  <view class="article__title" style="height:55rpx;"></view>
+  <image src="http://img1.ph.126.net/gtigWEVlA6XbXE9aFrB0ew==/2098114476501923011.jpg"></image>
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title">本次更新内容</view>
+  <view class="article__title">文档导入</view>
+  <view class="article__title">设置页面独立</view>
+  <view class="article__title">新增工具页面</view>
+  <view class="article__title">方便添加更多功能</view>
+  <view class="article__title" style="height:55rpx;"></view>
+
+  <view class="article__title">未来更新内容</view>
+  <view class="article__title red">拍照自动生成单词列表</view>
+  <view class="article__title red">单词词义自动查询</view>
+  <view class="article__title red">生成分享图片</view>
+  <view class="article__title">并且</view>
+  <view class="article__title">持续优化界面</view>
+
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title red">感谢</view>
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title">上次更新出了点问题</view>
+  <view class="article__title">从文档跳转到听写页面</view>
+  <view class="article__title">单词列表没刷新</view>
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title">这锅应该微信背</view>
+  <view class="article__title">网上找到了解决方法</view>
+  <view class="article__title">但据说苹果还是不行</view>
+  <view class="article__title">所以加了个按钮手动刷新</view>
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title red">在使用过程中</view>
+  <view class="article__title red">有任何想法</view>
+  <view class="article__title red">欢迎反馈</view>
+
+  <view class="article__title" style="height:55rpx;"></view>
+
+  <view class="article__title">微信</view>
+  <view class="article__title">jie170601</view>
+  <view class="article__title">
+    <button class="weui-btn mini-btn btn-right" type="default" size="mini" plain="true" bindtap="copy" data-value="jie170601">
+     复制
+    </button>
+  </view>
+  <view class="article__title">
+    <image style="width:100px;height:100px;" src="{{wechatcode}}" data-src="{{wechatcode}}" bindtap="previewImage"></image>
+  </view>
+  <ad unit-id="adunit-111a073fb0b9769f"></ad>   
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title">文档导入功能使用教程</view>
+  <view class="article__title" style="height:55rpx;"></view>
+  <view class="content">
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">用法有点酷（难）</view>
+    <view class="article__title">当然</view>
+    <view class="article__title">比记单词简单</view>
+    <view class="article__title">还请坚持看完</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">需要用到gitee</view>
+    <view class="article__title">没用过的可以百度</view>
+    <view class="article__title">首先注册gitee账号</view>
+    <view class="article__title">然后创建一个项目</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://images.gitee.com/uploads/images/2018/1214/152917_77f206e1_2087995.png" style="width:205px;height:100px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">把单词文档传到项目中</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://images.gitee.com/uploads/images/2018/1214/154739_f0d500e0_2087995.png" style="width:205px;height:103px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">在小程序中填写</view>
+    
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://images.gitee.com/uploads/images/2018/1214/155436_2f6ba658_2087995.png" style="width:205px;height:193px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title red">所有者</view>
+    <view class="article__title red">仓库名</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://images.gitee.com/uploads/images/2018/1214/155416_8224efad_2087995.png" style="width:205px;height:77px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title red">分支名</view>
+    
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://images.gitee.com/uploads/images/2018/1214/155805_a6322b2c_2087995.png" style="width:205px;height:81px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">然后就能找到你的文档了</view>
+    
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://images.gitee.com/uploads/images/2018/1214/155916_61604b84_2087995.png" style="width:205px;height:138px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">然后就能听写了</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">里面默认初始仓库</view>
+    <view class="article__title">是我自己的</view>
+    <view class="article__title">欢迎Star评论</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">PS：</view>
+    <view class="article__title red">为什么要用gitee</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">因为微信对小程序的限制</view>
+    <view class="article__title">本地文件管理很不方便</view>
+    <view class="article__title">而且gitee方便文档共享</view>
+    <view class="article__title">省去手机电脑间传文件的麻烦</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">学会用gitee</view>
+    <view class="article__title">可不只能用来存单词文档</view>
+    <view class="article__title">它能做的事情多了去了</view>
+    <view class="article__title">上面也有很多有意思的东西</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">然后你会接触到github</view>
+    <view class="article__title">上面存着来自全世界的有趣的东西</view>
+    <view class="article__title">又酷又有趣的那种</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">PS：</view>
+    <view class="article__title red">为什么不用github</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">虽然github更出名</view>
+    <view class="article__title">虽然github更厉害</view>
+    <view class="article__title">但是它慢呀</view>
+    <view class="article__title">还是英文的</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title red">注意</view>
+    <view class="article__title">小程序支持的文档</view>
+    <view class="article__title">必须是csv格式的</view>
+    <view class="article__title">只包含单词</view>
+    <view class="article__title">不能有词义等</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">关于词义</view>
+    <view class="article__title">后面会自动生成</view>
+    <view class="article__title">敬请期待</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">欢迎加我微信咨询</view>
+    <view class="article__title">更详细的教程</view>
+    <view class="article__title">欢迎访问</view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title">
+      <image src="https://gitee.com/logo-black.svg?20171024" style="width:85px;height:24px;border-radius:5px;"></image>
+    </view>
+    <view class="article__title" style="height:55rpx;"></view>
+    <view class="article__title red">https://gitee.com/dengjijie/tingxie</view>
+    <view class="article__title" style="height:55rpx;"></view>
+  <view class="article__title">
+    <button class="weui-btn mini-btn btn-right" type="default" size="mini" plain="true" bindtap="copy" data-value="https://gitee.com/dengjijie/tingxie">
+     复制
+    </button>
+  </view>
+  <view class="article__title" style="height:55rpx;"></view>
+  </view>
+  <view class="article__title" style="height:55rpx;"></view>
+
+</view>

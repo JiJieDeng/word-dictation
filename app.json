@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/doc/doc_index",
+    "pages/desc/desc",
+    "pages/doc/doc",
+    "pages/play/play",
+    "pages/set/set",
+    "pages/tools/tools",
+    "pages/doc/doc_list"
+  ],
+  "tabBar": {
+    "color": "#464a56",
+    "selectedColor": "#6595e9",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "听写",
+        "iconPath": "images/listen.png",
+        "selectedIconPath": "images/listen_press.png"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "text": "工具",
+        "iconPath": "images/tools.png",
+        "selectedIconPath": "images/tools_press.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/set_press.png"
+      },
+      {
+        "pagePath": "pages/desc/desc",
+        "text": "说明",
+        "iconPath": "images/desc.png",
+        "selectedIconPath": "images/desc_press.png"
+      }
+    ]
+  },
+  "window": {
+    "backgyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "单词听写",
+    "navigationBarTextStyle": "black"
+  }
+}

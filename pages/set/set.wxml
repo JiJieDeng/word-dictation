@@ -1,0 +1,27 @@
+<!--pages/set/set.wxml-->
+<view class="page">
+  <view class="page__hd" style="width:100%;text-align:center;">设置</view>
+
+    <view class="weui-flex">
+      <slider style="width:100%;" show-value value="{{play_rate}}" min="1" max="9" step="1" bindchange="playRateChange"/>
+    </view>
+
+    <view class="weui-flex">
+      <slider style="width:100%;" show-value value="{{loop_time}}" min="1" max="10" step="1" bindchange="loopTimeChange"/>
+    </view>
+
+    <view class="weui-flex">
+      <slider style="width:100%;" show-value value="{{inner_delay}}" min="100" max="10000" step="100" bindchange="innerDelayChange"/>
+    </view>
+
+    <view class="weui-flex">
+      <slider style="width:100%;" show-value value="{{outer_delay}}" min="100" max="10000" step="100" bindchange="outerDelayChange"/>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item" style='padding-left:10px;padding-top:5px;color:gray;'>
+        乱序听写
+      </view>
+      <switch checked="{{random}}" bindchange="randomChange" style='margin-right:10px;'/>
+    </view>
+    <view style='height:50px;'></view>
+  </view>

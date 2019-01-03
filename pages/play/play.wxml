@@ -1,0 +1,4 @@
+<!--pages/play/play.wxml-->
+<view class="page-contair">
+    <button bindtap="play" class="{{play?'btn-pause':'btn-play'}}" hover-class="{{play?'btn-pause-press':'btn-play-press'}}"></button>
+</view>

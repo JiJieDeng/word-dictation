@@ -1,0 +1,33 @@
+<!--pages/tools/tools.wxml-->
+<view class="page">
+ <view class="weui-grids">
+
+  <view class="weui-grid"  bindtap='toDocIndex'>
+    <view class="weui-grid_icon" style="text-align:center;">
+      <image src="/images/wd.png" style='width:35px;height:35px;;margin-bottom:0;padding-bottom:0;'></image>
+    </view>
+    <view class="weui-grid_label">
+      <view style="width:100%;text-align:center;margin-top:-5px;padding-top:0;font-size:12px;">文档</view>
+    </view>
+  </view>
+
+  <view class="weui-grid" bindtap='scann'>
+    <view class="weui-grid_icon" style="text-align:center;">
+      <image src="/images/sm.png" style='width:35px;height:35px;;margin-bottom:0;padding-bottom:0;'></image>
+    </view>
+    <view class="weui-grid_label">
+      <view style="width:100%;text-align:center;margin-top:-5px;padding-top:0;font-size:12px;">扫描</view>
+    </view>
+  </view>
+
+  <view class="weui-grid" bindtap='share'>
+    <view class="weui-grid_icon" style="text-align:center;">
+      <image src="/images/xy.png" style='width:35px;height:35px;;margin-bottom:0;padding-bottom:0;'></image>
+    </view>
+    <view class="weui-grid_label">
+      <view style="width:100%;text-align:center;margin-top:-5px;padding-top:0;font-size:12px;">得瑟</view>
+    </view>
+  </view>
+
+ </view>
+</view>
